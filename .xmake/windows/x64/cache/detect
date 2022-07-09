@@ -1,0 +1,69 @@
+{
+    find_programver_fetch_package_xmake = {
+        ["D:\\Software\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.20.21032501-MSVC"
+    },
+    find_program_fetch_package_xmake = {
+        cmake = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver = {
+        ["D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_external_includedir"] = true,
+        ["windows_x64_D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_cl_sourceDependencies"] = true,
+        ["windows_x64_D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe__cxx_cxxflags_/EHsc_/openmp"] = true,
+        ["windows_x64_D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_/EHsc_-DNDEBUG"] = true,
+        ["windows_x64_D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe__cxx__/EHsc_-Ox -fp:fast"] = true
+    },
+    find_program_fetch_package_system = {
+        cmake = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::spdlog_b91784a4f01840699617745366b379a3_release_v1.9.2_external"] = {
+            version = "v1.9.2",
+            sysincludedirs = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\s\spdlog\v1.9.2\b91784a4f01840699617745366b379a3\include]]
+            }
+        },
+        ["xmake::stb_6e97cc07f91b4456adf2e5e6ed7d40da_release_2021.09.10_external"] = {
+            version = "2021.09.10",
+            sysincludedirs = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\s\stb\2021.09.10\6e97cc07f91b4456adf2e5e6ed7d40da\include]]
+            }
+        },
+        ["xmake::eigen_96d56db5bdde4df1aa91275a485e2837_release_3.4.0_external"] = {
+            version = "3.4.0",
+            license = "MPL-2.0",
+            sysincludedirs = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837\include]],
+                [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837\include\eigen3]]
+            }
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver_fetch_package_system = {
+        ["D:\\Software\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.20.21032501-MSVC"
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe]]
+    },
+    find_program = {
+        ["cl.exe"] = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        ["D:\\Software\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe"] = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        unzip = "unzip",
+        gdc = false,
+        ping = "ping",
+        zig = false,
+        git = "git",
+        dmd = false,
+        ldc2 = false,
+        tar = "tar",
+        gzip = "gzip",
+        ccache = false
+    }
+}

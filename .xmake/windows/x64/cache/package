@@ -1,0 +1,55 @@
+{
+    stb = {
+        sysincludedirs = [[C:\Users\13941\AppData\Local\.xmake\packages\s\stb\2021.09.10\6e97cc07f91b4456adf2e5e6ed7d40da\include]],
+        __installdir = [[C:\Users\13941\AppData\Local\.xmake\packages\s\stb\2021.09.10\6e97cc07f91b4456adf2e5e6ed7d40da]],
+        __requirestr = "stb",
+        envs = {
+            PATH = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\s\stb\2021.09.10\6e97cc07f91b4456adf2e5e6ed7d40da\bin]]
+            }
+        },
+        __enabled = true,
+        version = "2021.09.10"
+    },
+    eigen = {
+        version = "3.4.0",
+        license = "MPL-2.0",
+        __installdir = [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837]],
+        __requirestr = "eigen",
+        envs = {
+            PATH = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837\bin]],
+                [[C:\Users\13941\AppData\Local\.xmake\packages\c\cmake\3.22.1\33174cd752934705b9e583491cc925c6\bin]]
+            }
+        },
+        __enabled = true,
+        sysincludedirs = {
+            [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837\include]],
+            [[C:\Users\13941\AppData\Local\.xmake\packages\e\eigen\3.4.0\96d56db5bdde4df1aa91275a485e2837\include\eigen3]]
+        }
+    },
+    spdlog = {
+        sysincludedirs = [[C:\Users\13941\AppData\Local\.xmake\packages\s\spdlog\v1.9.2\b91784a4f01840699617745366b379a3\include]],
+        __installdir = [[C:\Users\13941\AppData\Local\.xmake\packages\s\spdlog\v1.9.2\b91784a4f01840699617745366b379a3]],
+        __requirestr = "spdlog",
+        envs = {
+            PATH = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\s\spdlog\v1.9.2\b91784a4f01840699617745366b379a3\bin]]
+            }
+        },
+        __enabled = true,
+        version = "v1.9.2"
+    },
+    openmp = {
+        envs = {
+            PATH = {
+                [[C:\Users\13941\AppData\Local\.xmake\packages\o\openmp\latest\bdc294364f844d88b071a29ef903d27b\bin]]
+            }
+        },
+        __installdir = [[C:\Users\13941\AppData\Local\.xmake\packages\o\openmp\latest\bdc294364f844d88b071a29ef903d27b]],
+        __requirestr = "openmp",
+        cxxflags = "/openmp",
+        __enabled = true,
+        cflags = "/openmp"
+    }
+}

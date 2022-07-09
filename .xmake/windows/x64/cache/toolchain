@@ -1,0 +1,77 @@
+{
+    tool_target_SoftRender_windows_x64_cxx = {
+        toolchain_info = {
+            plat = "windows",
+            arch = "x64",
+            cachekey = "msvc_arch_x64_plat_windows",
+            name = "msvc"
+        },
+        program = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        toolname = "cl"
+    },
+    tool_target_SoftRender_windows_x64_ld = {
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64",
+            name = "msvc",
+            plat = "windows"
+        },
+        program = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe]],
+        toolname = "link"
+    },
+    tool_platform_windows_x64_cxx = {
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64",
+            name = "msvc",
+            plat = "windows"
+        },
+        program = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        toolname = "cl"
+    },
+    tool_platform_windows_x64_cc = {
+        toolchain_info = {
+            cachekey = "msvc_arch_x64_plat_windows",
+            arch = "x64",
+            name = "msvc",
+            plat = "windows"
+        },
+        program = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe]],
+        toolname = "cl"
+    },
+    msvc_arch_x64_plat_windows = {
+        vs_sdkver = "10.0.19041.0",
+        __global = true,
+        arch = "x64",
+        vs = "2019",
+        vcvars = {
+            LIB = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\lib\x64;D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64;D:\Windows Kits\10\lib\10.0.19041.0\ucrt\x64;D:\Windows Kits\10\lib\10.0.19041.0\um\x64]],
+            VSCMD_VER = "16.11.6",
+            WindowsLibPath = [[D:\Windows Kits\10\UnionMetadata\10.0.19041.0;D:\Windows Kits\10\References\10.0.19041.0]],
+            LIBPATH = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\lib\x64;D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x64;D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\lib\x86\store\references;D:\Windows Kits\10\UnionMetadata\10.0.19041.0;D:\Windows Kits\10\References\10.0.19041.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319]],
+            UniversalCRTSdkDir = [[D:\Windows Kits\10\]],
+            WindowsSDKVersion = "10.0.19041.0",
+            VSCMD_ARG_TGT_ARCH = "x64",
+            VCInstallDir = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\]],
+            VCToolsInstallDir = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\]],
+            DevEnvdir = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\]],
+            PATH = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\\Extensions\Microsoft\IntelliCode\CLI;D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\VCPackages;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Software\Microsoft Visual Studio\2019\Community\MSBuild\Current\bin\Roslyn;D:\Software\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools\x64;D:\Software\Microsoft Visual Studio\2019\Community\Team Tools\Performance Tools;D:\Software\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\\x64;D:\Software\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\vs2019\;D:\Software\Microsoft Visual Studio\2019\Community\Common7\Tools\devinit;D:\Windows Kits\10\bin\10.0.19041.0\x64;D:\Windows Kits\10\bin\x64;D:\Software\Microsoft Visual Studio\2019\Community\\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\;D:\Software\Microsoft Visual Studio\2019\Community\Common7\Tools\;D:\Software\XMake;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.3\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.1.1\;D:\Software\Git\cmd;D:\texlive\2021\bin\win32;D:\Anaconda3;D:\Anaconda3\Library\mingw-w64\bin;D:\Anaconda3\Library\usr\bin;D:\Anaconda3\Library\bin;D:\Anaconda3\Scripts;C:\Users\13941\AppData\Local\Microsoft\WindowsApps;D:\Software\Microsoft VS Code\bin;C:\Users\13941\AppData\Local\GitHubDesktop\bin;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja]],
+            INCLUDE = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include;D:\Software\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include;D:\Windows Kits\10\include\10.0.19041.0\ucrt;D:\Windows Kits\10\include\10.0.19041.0\shared;D:\Windows Kits\10\include\10.0.19041.0\um;D:\Windows Kits\10\include\10.0.19041.0\winrt;D:\Windows Kits\10\include\10.0.19041.0\cppwinrt]],
+            VCToolsVersion = "14.29.30133",
+            VSCMD_ARG_HOST_ARCH = "x64",
+            VCIDEInstallDir = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\IDE\VC\]],
+            VSCMD_ARG_app_plat = "Desktop",
+            ExtensionSdkDir = [[C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs]],
+            VCToolsRedistDir = [[D:\Software\Microsoft Visual Studio\2019\Community\VC\Redist\MSVC\14.29.30133\]],
+            VisualStudioVersion = "16.0",
+            VS160COMNTOOLS = [[D:\Software\Microsoft Visual Studio\2019\Community\Common7\Tools\]],
+            UCRTVersion = "10.0.19041.0",
+            WindowsSdkBinPath = [[D:\Windows Kits\10\bin\]],
+            WindowsSdkDir = [[D:\Windows Kits\10\]],
+            WindowsSdkVerBinPath = [[D:\Windows Kits\10\bin\10.0.19041.0\]],
+            VSInstallDir = [[D:\Software\Microsoft Visual Studio\2019\Community\]]
+        },
+        plat = "windows",
+        vs_toolset = "14.29.30133"
+    }
+}
