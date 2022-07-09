@@ -28,7 +28,7 @@
 
 根据公式，得到代码
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220503212219844.png" alt="image-20220503212219844" style="zoom: 50%;" />
+<img src="images\image-20220503212219844.png" alt="image-20220503212219844" style="zoom: 50%;" />
 
 如果$d · N = 0$平行，没有交点，返回inf
 
@@ -51,7 +51,7 @@ virtual real Intersect(const Ray &ray) const override
 
 根据公式，得到代码
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220503212725040.png" alt="image-20220503212725040" style="zoom: 50%;" />
+<img src="images\image-20220503212725040.png" alt="image-20220503212725040" style="zoom: 50%;" />
 
 没有交点，或者解算出的交点为负，即射线无法达到球上，返回inf
 
@@ -157,7 +157,7 @@ Color RayTrace(const Scene &scene, Ray ray)
 
 个人实现：                                                                               样例效果：
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220503202823630.png" alt="image-20220503202823630" style="zoom: 33%;" /><img src="D:\3xia\IntroVisual\lab-2-0.2\figures\ray-tracing.png" alt="ray-tracing" style="zoom: 33%;" />
+<img src="images\image-20220503202823630.png" alt="image-20220503202823630" style="zoom: 33%;" /><img src="figures\ray-tracing.png" alt="ray-tracing" style="zoom: 33%;" />
 
 Whitted-Style Ray Tracing 的实现效果如左图，
 
@@ -277,7 +277,7 @@ Color PathTrace(const Scene &scene, Ray ray)
 
 个人实现：                                                                               样例效果：
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220503200546473.png" alt="image-20220503200546473" style="zoom: 33%;" /><img src="D:\3xia\IntroVisual\lab-2-0.2\figures\path-tracing.png" alt="path-tracing" style="zoom:50%;" />
+<img src="images\image-20220503200546473.png" alt="image-20220503200546473" style="zoom: 33%;" /><img src="figures\path-tracing.png" alt="path-tracing" style="zoom:50%;" />
 
 渲染10分钟后的结果如左图，
 

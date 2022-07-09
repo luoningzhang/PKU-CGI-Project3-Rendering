@@ -83,11 +83,11 @@ xmake run
 
 #### witted style ray tracing
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220626180802783.png" alt="image-20220626180802783" style="zoom:25%;" /><img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220626180510978.png" alt="image-20220626180510978" style="zoom:25%;" />
+<img src="images\image-20220626180802783.png" alt="image-20220626180802783" style="zoom:25%;" /><img src="images\image-20220626180510978.png" alt="image-20220626180510978" style="zoom:25%;" />
 
 #### monte carlo path tracing
 
-<img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220626174206942.png" alt="image-20220626174206942" style="zoom: 25%;" /><img src="C:\Users\13941\AppData\Roaming\Typora\typora-user-images\image-20220626175328567.png" alt="image-20220626175328567" style="zoom: 25%;" />
+<img src="images\image-20220626174206942.png" alt="image-20220626174206942" style="zoom: 25%;" /><img src="images\image-20220626175328567.png" alt="image-20220626175328567" style="zoom: 25%;" />
 
 ### 2）升级要求
 
